@@ -31,7 +31,7 @@ var colecao6 = ee.Image('projects/mapbiomas-workspace/public/collection6/mapbiom
 // reclassify only to classes that cerrado maps
 colecao6 = colecao6.select('classification_'+ ano).remap(
                   [3, 4, 5,  9, 11, 12,13,15,18,19,20,21,22,23,24,25,26,29,30,31,32,33,39,40,41,46,47,48],
-                  [3, 4, 3, 21, 11, 12,12,15,19,19,19,21,25,25,25,25,33,25,25,25,25,33,19,190,19,19,19,19]);
+                  [3, 4, 3, 21, 11, 12,12,15,19,19,19,21,25,25,25,25,33,25,25,25,25,33,19,19,19,19,19,19]);
 
 // plot 
 Map.addLayer(colecao6, vis, 'Coleção 6 '+ano, false);
