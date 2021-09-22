@@ -1,4 +1,6 @@
 // generate stable samples fro collection 6 for the Cerrado biome
+// @ track improvements
+// dhemerson.costa@ipam.org.br
 
 var CERRADO_simpl = 
     /* color: #d63000 */
